@@ -17,4 +17,5 @@ module "lambda_function" {
     }
 
     architectures = ["arm64"]
+    cloudwatch_logs_retention_in_days = 1
 }
